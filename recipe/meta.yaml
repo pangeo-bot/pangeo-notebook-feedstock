@@ -1,4 +1,4 @@
-{% set version = "2025.01.24" %}
+{% set version = "2025.02.12" %}
 
 package:
   name: pangeo-notebook
@@ -15,8 +15,8 @@ requirements:
     - ipywidgets =8.1.5
     - jupyter-server-proxy =4.4.0
     - jupyterhub-singleuser =5.2.1
-    - jupyterlab =4.3.4
-    - nbgitpuller =1.2.1
+    - jupyterlab =4.3.5
+    - nbgitpuller =1.2.2
 
 test:
   commands:
